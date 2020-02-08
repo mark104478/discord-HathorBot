@@ -5,6 +5,8 @@ const request = require('request');
 const async = require('async');
 const URL = require('url');
 const bot = new Discord.Client();
+const m3u8stream = require('m3u8stream');
+const parseTime   = require('m3u8stream/dist/parse-time');
 
 // Paths
 const modulesPath = path.join(__dirname, 'modules');
