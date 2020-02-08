@@ -12,7 +12,7 @@
 // Then no one will be able to use the admin commands
 
 module.exports = {
-	token: "TOKEN_KEY",
-	youtubeAPI: "YOUTUBE_API_KEY",
-	owner_id: "OWNER_ID"
+	token: process.env.TOKEN,
+	youtubeAPI: process.env.api,
+	owner_id: "467306557114155018"
 }
