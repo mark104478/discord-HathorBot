@@ -3,6 +3,9 @@
   "version": "2.6.0",
   "description": "Discord music bot",
   "main": "app.js",
+  "engines": {
+    "node": "6.11.1"
+  },
   "dependencies": {
     "async": "^2.4.1",
     "discord.js": "11.4.2",
